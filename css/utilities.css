@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* colors */
+
+    --white:#fff;
+    --text:#333;
+    --primary:rgb(27, 145, 106);
+    --secondary:rgb(0, 77, 90);
+
+    /* font-families */
+    
+}
+
+/* Utility Selectors */
+
+/* Global Styling */
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+img {
+    width: 100%;
+}
+
+/* New */
+h1, h2 {
+    margin: 10px 0;
+}
+
+P {
+    margin: 10px 0;
+}
+
+
+/* .Utility classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* This ensure that the grid class will be as long as its parent element . which infact is a smart way, so we don't need to specify height to grid containers each time .*/
+}
+
+.card {
+    color: var(--text);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border:1px solid transparent;
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--secondary);
+    overflow: hidden;
+}
+
+.btn:hover {
+    transform: scale(.97);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-1 {
+    margin: 10px 0;
+}
+
+.my-2 {
+    margin: 20px 0;
+}
+
+.my-3 {
+    margin: 30px 0;
+}
+
+.my-4 {
+    margin: 40px 0;
+}
+
+.my-5 {
+    margin: 50px 0;
+}
