@@ -145,3 +145,23 @@ body {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
+
+/* Supported Languages styling */
+.languages .container .card {
+    margin: 1.15rem .85rem 2.25rem;
+    transition: transform .3s ease-out;
+}
+
+.languages .flexbox {
+    flex-wrap: wrap;
+}
+
+.languages .card h4{
+    font-size: 1.25rem;
+    margin-bottom: .85rem;
+}
+
+.languages .container .card:hover {
+    transform: translateY(-10px);
+    /* cursor: grab; */
+}
