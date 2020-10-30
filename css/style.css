@@ -105,3 +105,27 @@ body {
     border: 1px solid var(--white);
     background: transparent;
 }
+
+/* ....Stats Styling --------------------------------------------------------------------------*/
+.stats {
+    padding-top: 10rem;
+}
+
+.stats .stats-heading {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stats .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.stats .grid h3 {
+    font-size: 2rem;
+}
+
+.stats .grid p {
+    color: var(--primary);
+    font-size: 1.15rem;
+    font-weight: bold;
+}
