@@ -69,6 +69,10 @@ P {
     height: 100%; /* This ensure that the grid class will be as long as its parent element . which infact is a smart way, so we don't need to specify height to grid containers each time .*/
 }
 
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .card {
     color: var(--text);
     background-color: #fff;
@@ -115,6 +119,9 @@ P {
     color: var(--white);
 }
 
+.bg-primary a, .btn-primary a, .bg-secondary a,.btn-secondary a, .bg-dark a,.btn-dark a, .bg-light a,.btn-light a {
+    color: var(--white);
+}
 /* Dimensions */
 .lead {
     font-size: 1.25rem;
