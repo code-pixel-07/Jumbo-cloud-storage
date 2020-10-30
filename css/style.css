@@ -108,7 +108,7 @@ body {
 
 /* ....Stats Styling --------------------------------------------------------------------------*/
 .stats {
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 
 .stats .stats-heading {
@@ -128,4 +128,20 @@ body {
     color: var(--primary);
     font-size: 1.15rem;
     font-weight: bold;
+}
+
+/* Product useage / cli styling --------------------------------------------------------------*/
+.cli {
+    padding: 3rem;
+}
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+    /* 1 is the starting column of the grid container and we are telling it to span across 2 columns ie;  from 1 to 2 */
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
 }

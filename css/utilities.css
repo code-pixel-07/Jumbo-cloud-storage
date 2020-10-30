@@ -13,6 +13,7 @@
     --text:#333;
     --primary:rgb(27, 145, 106);
     --secondary:rgb(0, 77, 90);
+    --dark:rgb(5, 20, 13);
 
     /* font-families */
     
@@ -95,6 +96,42 @@ P {
 .text-center {
     text-align: center;
 }
+
+/* Backgrounds and colors */
+.bg-primary,.btn-primary{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.bg-secondary,.btn-secondary{
+    background-color: var(--secondary);
+    color: var(--white);
+}
+.bg-dark,.btn-dark{
+    background-color: var(--dark);
+    color: var(--white);
+}
+.bg-light,.btn-light{
+    background-color: var(--light);
+    color: var(--white);
+}
+
+/* Dimensions */
+.lead {
+    font-size: 1.25rem;
+}
+.sm {
+    font-size: 1rem;
+}
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
 
 /* Margin Utility */
 .my-1 {
