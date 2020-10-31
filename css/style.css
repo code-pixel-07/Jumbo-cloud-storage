@@ -162,10 +162,29 @@ body {
     /* cursor: grab; */
 }
 
+
+/* Feature page Styling |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.feature-hero img{
+    max-width: 200px;
+    justify-self: flex-end;
+}
+
+.feature-about img {
+    max-width: 300px;
+    justify-self: flex-end;
+}
+
+.feature-about h1{
+    margin: 1.5rem auto;
+}
+
+
+
 /* Footer  */
 footer .social-links i{
     margin: 0 .8rem ;
 }
+
 
 /* Media queries --------------------------------------------------------------------*/
 

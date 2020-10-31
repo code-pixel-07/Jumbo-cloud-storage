@@ -116,7 +116,7 @@ P {
 }
 .bg-light,.btn-light{
     background-color: var(--light);
-    color: var(--white);
+    color: var(--text);
 }
 
 .bg-primary a, .btn-primary a, .bg-secondary a,.btn-secondary a, .bg-dark a,.btn-dark a, .bg-light a,.btn-light a {
