@@ -176,13 +176,35 @@ body {
 
 .feature-about h1{
     margin: 1.5rem auto;
+    color: var(--secondary);
 }
+
+.feature-list h1 {
+    color: var(--primary);
+}
+
+.feature-list .card > i {
+    margin-right: 1rem;
+    color: var(--secondary);
+}
+
+.feature-list .grid {
+    padding: 2rem;
+}
+
+.feature-list .grid *:first-child {
+    grid-column: 1 / -1;
+}
+.feature-list .grid *:nth-child(2) {
+    grid-column: 1 / span 2;
+}
+
 
 
 
 /* Footer  */
 footer .social-links i{
-    margin: 0 .8rem ;
+    margin-right: 1.25rem ;
 }
 
 
