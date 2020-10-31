@@ -205,7 +205,7 @@ footer .social-links i{
 
 
 /* For mobiles */
-@media screen and (max-width:480px) {
+@media(max-width:480px) {
     #navbar {
         height: 25vh;
     }
@@ -215,5 +215,84 @@ footer .social-links i{
     #navbar ul {
         padding: .8rem;
         background-color: rgba(0, 0, 0, .1);
+    }
+    
+    .showcase .grid {
+        gap: 10px;
+    }
+
+    .showcase .showcase-text {
+        width: 90%;
+        margin: 1.25rem auto;
+    }
+    .showcase .showcase-text p {
+        font-size: .8rem;
+    }
+
+    .showcase-form {
+        max-width: 80%;
+        top: 40px;
+    }
+
+    .showcase-form .form-control input[type="text"], .showcase-form .form-control input[type="email"] {
+        width: 100%;
+    }
+    
+    .showcase-form input[type=submit] {
+        width: 80%;
+        margin: 0 1.5rem;
+    }
+
+    .cli {
+        padding: 1.5rem 0;
+    }
+
+    .cli .grid {
+        gap: .5rem;
+    }
+
+    .cli .grid img{
+        /* grid-template-rows: repeat(3, 1fr); */
+        grid-row: 1 / span 2;
+    }
+
+    .cli h3 {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    footer .grid {
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    footer .grid nav {
+        margin: 1rem 0;
+    }
+
+    footer .grid nav ul li {
+        display: inline;
+        margin:0 .8rem;
+    }
+
+    footer .grid .social-links {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .showcase .showcase-text {
+        width: 70%;
+    }
+    .showcase-text h1{
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .showcase .card{
+        padding: 1rem;
+        margin: -1rem;
     }
 }
