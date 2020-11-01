@@ -164,12 +164,12 @@ body {
 
 
 /* Feature page Styling |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-.feature-hero img{
+.feature-hero img, .docs-intro img{
     max-width: 200px;
     justify-self: flex-end;
 }
 
-.feature-about img {
+.feature-about img{
     max-width: 300px;
     justify-self: flex-end;
 }
