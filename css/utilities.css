@@ -10,11 +10,13 @@
     /* colors */
 
     --white:#fff;
-    --text:#333;
     --primary:rgb(27, 145, 106);
     --secondary:rgb(0, 77, 90);
     --dark:rgb(5, 20, 13);
     --light:#e8e8e8;
+    --text:#333;
+    --warning:  #c7b93f;
+    --error: #d9534f;
 
     /* font-families */
     
@@ -120,9 +122,48 @@ P {
     color: var(--text);
 }
 
-.bg-primary a, .btn-primary a, .bg-secondary a,.btn-secondary a, .bg-dark a,.btn-dark a, .bg-light a,.btn-light a {
+.bg-light a, .btn-light a {
+    color: var(--text);
+}
+
+.bg-primary a, .btn-primary a, .bg-secondary a,.btn-secondary a, .bg-dark a,.btn-dark a {
     color: var(--white);
 }
+
+.text-primary {
+    color: var(--primary) !important;
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text-dark {
+    color: var(--dark);
+}
+.text-light {
+    color: var(--light);
+}
+
+
+/* alerts */
+.alert {
+    background-color: var(--light);
+    padding: .5rem 1.25rem;
+    font-weight: bold;
+}
+
+.alert i {
+    margin-right: 1rem;
+}
+
+.alert-success {
+    background-color: var(--warning);
+    color: var(--white);
+}
+.alert-error {
+    background-color: var(--warning);
+    color: var(--white);
+}
+
 /* Dimensions */
 .lead {
     font-size: 1.25rem;

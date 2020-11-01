@@ -199,6 +199,33 @@ body {
     grid-column: 1 / span 2;
 }
 
+/* Documentation page styling  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.docs-main h3 {
+    margin: 1.25rem 0;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+}
+
+.docs-main .grid *:first-child {
+    align-self: flex-start;
+}
+
+.docs-main nav ul li {
+    padding: .35rem .5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.docs-main nav ul li:hover a{
+    font-weight: bold;
+}
+
+.docs-main .brief pre {
+    background-color: var(--secondary);
+    padding: .5rem 1rem;
+    color: var(--white);
+}
 
 
 
@@ -206,6 +233,8 @@ body {
 footer .social-links i{
     margin-right: 1.25rem ;
 }
+
+
 
 
 /* Media queries --------------------------------------------------------------------*/
