@@ -145,7 +145,7 @@ body {
 /* Supported Languages styling */
 .languages .container .card {
     margin: 1.15rem .85rem 2.25rem;
-    transition: transform .3s ease-out;
+    transition: transform .2s ease-out;
 }
 
 .languages .flexbox {
@@ -237,6 +237,7 @@ footer .social-links i{
     margin-right: 1.25rem ;
 }
 
+/* Animations */
 
 
 

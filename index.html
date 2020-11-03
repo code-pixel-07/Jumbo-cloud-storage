@@ -8,12 +8,22 @@
     <!-- Custom Stylesheets --------------------------------------------------->
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/utilities.css" type="text/css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Scripts -------------------------------------------------------------->
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f0d37b1801.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/main.js" type="text/javascript" defer></script>
 </head>
 <body>
     
+    <!-- Header / Navbar -->
     <header id="navbar">
         <div class="container flexbox">
             <h2 class="logo">Webifly.</h2>
@@ -32,7 +42,7 @@
     <section class="showcase">
         <div class="container grid">
     
-            <div class="showcase-text">
+            <div class="showcase-text" data-aos="fade-right" data-aos-duration="1000">
                 <h1>High Bandwidth , Secure Responses.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus inventore porro laborum iste
                     laudantium non corporis assumenda ea, quod dicta eius nam. Possimus sapiente ipsam consectetur et
@@ -40,7 +50,7 @@
                 <a href="features.html" class="btn btn-outline">Read More</a>
             </div>
     
-            <div class="showcase-form card">
+            <div class="showcase-form card" data-aos="fade-left" data-aos-duration="1000">
                 <h2>Request a Demo</h2>
                 <form>
                     <div class="form-control">
@@ -68,18 +78,18 @@
                 and the same price across every data center.
             </h3>
     
-            <div class="grid grid-3 text-center my-4">
-                <div>
+            <div class="grid grid-3 text-center my-4 no-overflow">
+                <div data-aos="fade-up" data-aos-duration="500">
                     <i class="fas fa-server fa-3x"></i>
                     <h3>23,45,678</h3>
                     <p class="text-secondary">Deployment</p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <i class="fas fa-upload fa-3x"></i>
                     <h3>13,45,678</h3>
                     <p class="text-secondary">Published</p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1500">
                     <i class="fas fa-project-diagram fa-3x"></i>
                     <h3>6,59,475</h3>
                     <p class="text-secondary">Active Users</p>
@@ -90,12 +100,12 @@
 
     <!-- Product usage or cli intro -->
     <section class="cli">
-        <div class="container grid">
-            <img src="./images/cli.png" alt="cli-useage">
-            <div class="card">
+        <div class="container grid no-overflow">
+            <img src="./images/cli.png" alt="cli-useage" data-aos="zoom-in" data-aos-duration="500">
+            <div class="card" data-aos="fade-left">
                 <h3>Easy to Use, Cross-Platform Cli</h3>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-duration="800">
                 <h3>Deploy in Seconds!</h3>
             </div>
         </div>
@@ -103,13 +113,13 @@
 
     <!-- Secondary banner / Self-ad on the service-->
     <section class="cloud bg-primary my-2 py-2">
-        <div class="container grid">
+        <div class="container grid no-overflow">
             <div class="text-center">
                 <h2 class="md">Professional Cloud Services</h2>
                 <p class="lead my-1">Cloud Hosting like you've never seen. Fast, Secure and Reliable</p>
-                <a href="features.html" class="btn btn-dark">Read More</a>
+                <a href="features.html" class="btn btn-dark" data-aos="flip-up" data-aos-duration="600">Read More</a>
             </div>
-            <img src="./images/cloud.png" alt="cloud demo">
+            <img src="./images/cloud.png" alt="cloud demo" data-aos="zoom-out-down">
         </div>
     </section>
 
@@ -118,36 +128,36 @@
         <h2 class="md text-center my-2">
             Supported Languages
         </h2>
-        <div class="container flexbox">
-            <div class="card">
+        <div class="container flexbox no-overflow">
+            <div class="card" data-aos="fade-down" data-aos-duration="100">
                 <h4 class="text-center">Node Js</h4>
                 <img src="./images/logos/node.png" alt="nodeJs">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="200">
                 <h4 class="text-center">Python</h4>
                 <img src="./images/logos/python.png" alt="python">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="300">
                 <h4 class="text-center">Ruby</h4>
                 <img src="./images/logos/ruby.png" alt="ruby">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="400">
                 <h4 class="text-center">Scala</h4>
                 <img src="./images/logos/scala.png" alt="scala">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="500">
                 <h4 class="text-center">C#</h4>
                 <img src="./images/logos/csharp.png" alt="csharp">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="600">
                 <h4 class="text-center">Go</h4>
                 <img src="./images/logos/go.png" alt="go">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="700">
                 <h4 class="text-center">Node Js</h4>
                 <img src="./images/logos/clojure.png" alt="nodeJs">
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="800">
                 <h4 class="text-center">PHP</h4>
                 <img src="./images/logos/php.png" alt="php">
             </div>
