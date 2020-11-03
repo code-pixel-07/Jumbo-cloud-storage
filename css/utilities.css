@@ -56,6 +56,11 @@ P {
     left: 0;
     top: 0;
 } */
+.hidden {
+    visibility: hidden;
+    /* Height is set to 0 because the element is technically still there and therefore a user sees it as an empty space .so by setting heigt to 0 it overcomes that problem */
+    height: 0;
+}
 
 .no-overflow {
     overflow: hidden !important;

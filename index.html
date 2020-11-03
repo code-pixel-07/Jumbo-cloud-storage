@@ -52,7 +52,11 @@
     
             <div class="showcase-form card" data-aos="fade-left" data-aos-duration="1000">
                 <h2>Request a Demo</h2>
-                <form>
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don't fill this out if you're a human: <input name="bot-field"/></label>
+                    </p>
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Name" class="" required>
                     </div>
